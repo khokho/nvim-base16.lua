@@ -1108,6 +1108,7 @@ themes["zenburn"] = {
 return setmetatable({
 	themes = themes,
 	apply_theme = apply_base16_theme,
+	highlight = highlight,
 	theme_from_array = function(array)
 		assert(#array == 16, "base16.theme_from_array: The array length must be 16")
 		local result = {}
